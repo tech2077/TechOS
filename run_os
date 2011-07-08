@@ -5,7 +5,7 @@
 ## have not built bochs from source with all its extra
 ## features enabled
 
-./build
+./scripts/build
 
 # bochs
 qemu -fda ./floppy.img -s -monitor stdio
