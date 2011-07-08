@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## if you prefer bochs, comment out the qemu line and
+## uncomment the bochs line, i recommend qemu if you
+## have not built bochs from source with all its extra
+## features enabled
+
+./build
+
+# bochs
+qemu -fda ./floppy.img -s -monitor stdio

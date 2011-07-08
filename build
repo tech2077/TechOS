@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd src
+make
+cd ..
+./scripts/update_image.sh
